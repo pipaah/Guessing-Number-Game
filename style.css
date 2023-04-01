@@ -1,0 +1,44 @@
+body {
+    background-color: #F0DEFD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+div {
+    background-color: #b1c8e1;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    width: 500px;
+    margin: auto;
+    padding: 6px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.submit {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
